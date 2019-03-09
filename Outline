@@ -1,0 +1,34 @@
+This is supposed to be a simple game, a turn-based, combat rpg with mechanics akin to stuff like Dragon Quest or Pokemon; 
+the scope can increase later.
+
+Initially, the user will be placed in a default location instance, they should be able to travel to other instances from here.
+
+I would call this location 'home base' for now, it might see other functionality later.
+
+From 'home base', the user should be able to travel to a location called 'the arena'
+
+'the arena' should have two functions, the ability to initiate fights with slimes, and the ability to look at battle related statistics.
+
+Initiating a fight will have the user battle a slime, where you have the options to 'punch', 'cower', 'analyze', or 'run'.
+
+The user and the slime both have speed, attack, defence and health stats; each slime type has a unique skillset that can do different things.
+
+'punch' attempts to lower the slimes hp, 'cower' is an attempt to minimize the result of the slime's move, run is an
+attempt to escape combat, and 'analyze' can give you information about the slime that will be placed in a beastiary.
+
+When you first fight a new type of slime, you won't know what it looks like unless you use time to analyze it during combat.
+Even after you know what it looks like, you won't have all of the details like its lore and moveset alligned with it right away.
+The beastiary already all of those entries unlocked, but the user has to place them with a picture of the correct slime.
+
+After that, the name will appear above the slime during combat.
+
+Going back to 'the arena', statistics shows you're number of kills for each slime type, unanalyzed slimes appear as '???', 
+a functionality for achieving certain kill streaks would be great.
+
+Lastly there should be a leveling system, something that'll raise stats, for now it'll be an average one, killing slimes gives xp towards levels.
+Xp gain should have a detrimental effect for fighting lower-level things, eventually when you're strong enough you'll win fights against
+certain types automatically but with no xp gain.
+
+There should be items or currency, that's a later objective.
+
+For now, no items and the user will heal after every arena fight.
