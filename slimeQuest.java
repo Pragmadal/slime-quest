@@ -1,5 +1,5 @@
 import java.util.Scanner
-public class game {
+public class slimeQuest {
   public static void main(String[] args) {
     
   }
